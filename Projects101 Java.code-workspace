@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Projects",
+			"path": "../Projects"
+		},
+		{
+			"name": "JAVA-Practice",
+			"path": "../../../DOCS/AIDE/CSR310 JAVA/JAVA-Practice"
+		}
+	],
+	"settings": {}
+}
