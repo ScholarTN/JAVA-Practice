@@ -18,7 +18,7 @@ class Sum
         System.out.println(result);
     }
 }
-
+/* 
 class Beginner
 {
     public static void main(String a[])
@@ -59,7 +59,7 @@ class TypeCasting
 
     }
 }
-
+*/
 class Operations
 {
     public static void main(String[] args)
@@ -75,7 +75,7 @@ class Operations
         
         //System.out.println(Re);
         System.out.println( RES);
-
+        System.out.println(result);
         // >, <, =
         boolean res = num7 > num8;
         System.out.println(res);
