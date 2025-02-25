@@ -4,6 +4,7 @@ public class StringPalindrome {
     {
         Scanner sc = new Scanner(System.in);
         String s1 = sc.nextLine();
+        sc.close();
         StringBuffer sb = new StringBuffer(s1);
         sb.reverse();
 
