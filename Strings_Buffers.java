@@ -15,10 +15,11 @@
 
 
         String s1 = "THUBA";
-        String s2 = "THUBA";   //{ This creates two references but the object is the same.
+        String s2 = "THUBA"; 
+         //{ This creates two references but the object is the same.
         // the s1 and s2 are stored in a stack, the name THUBA is stored in a string constant pool with a reference Adress.
         // s1 and s2 will have the same Address.
-
+        System.out.println(s1+s2) ;
 
         String name2 = "Thubalami"; // Thubalami gets stored in the string constant pool,  
         name2 = name2 + "Nkomazana";  //you cant update Thubalami, so this is creating a new object which will have the data Thubalami Nkomazana

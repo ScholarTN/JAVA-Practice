@@ -21,12 +21,12 @@ public class Static
         Mobile obj1 = new Mobile();
         obj1.brand ="Apple";
         obj1.price = 1500;
-        obj1.name = "Smart Phone";
+       // obj1.name = "Smart Phone";
 
         Mobile obj2 = new Mobile();
         obj2.brand ="Samsung";
         obj2.price = 1200;
-        obj2.name = "Smart Phone";
+        //obj2.name = "Smart Phone";
 
 
 // You can access static variables using the class name; this is actually advised than using an object

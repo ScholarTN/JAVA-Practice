@@ -1,0 +1,18 @@
+class ExpenseAnalyzer{
+    int calculateMaxRemainingBudget(int a[])
+    {
+        int min = Integer.MAX_VALUE;
+        int cursum=0;
+        int sum=0;
+        for (int i:ar)
+        {
+            cursum = cursum+i;
+            min=Math.min(cursum,min)
+            if (cursum>0)
+            {
+                cursum =0;
+            }
+            sum=sum+i;
+        }
+        return min;
+    }

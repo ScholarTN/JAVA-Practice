@@ -1,0 +1,116 @@
+wrapper classes-convert primitive data types into objects
+to create a wrapper object use wrapper class
+ie Integer myInt = 5;
+ Double myDouble = 8.92;
+ 
+ to get the value associated with wrapper object:
+ System.out.println(myInt.intValue())
+  System.out.println(myDouble.doubleValue())
+  
+  Autoboxing-conversion of primitive data type into its correspondent wrapper class
+
+classes are made up of data member and memeber function.
+public static void main is declared inside class but  is not a member of the class
+
+
+public class main
+{
+    int a = 5;
+    void lpu()
+    {
+        System.out.println(a+2);
+    }
+    public static void main(String[] args)
+    {
+        main obj = new Main();
+        System.out.println
+    }
+}
+
+function is a block of program that performs a specific task and always returns a single value.
+sequence of execution depends on the sequence of declaration and not the sequence of definition.
+declaration is in the main
+
+void add(int a,int b) // formal arg {called function}
+
+
+Main obj = new Main();
+obj.add(5,6); //Actual arg {calling function}
+
+variable arguments
+void add(int ... args)
+arr.length ----> no brackets for length
+string: s.length() --> brackets
+
+overloading and overriding 
+
+//enum always stores constants 
+
+
+
+// You are using Java
+/*class lpu
+{
+    int a=5;
+    void abc()
+    {
+        System.out.println(a);
+    }
+}
+
+public class Main 
+{
+    public static void main(string[] args)
+    {
+       lpu obj1 = new lpu();
+       obj1.abc;
+    }
+}
+*/
+
+//enum always stores constants seperated by commas
+// you can place it inside class and outside class
+//constants are in capitals
+
+enum Colors
+{
+    RED,
+    GREEN,
+    BLUE,
+    WHITE,
+    PINK
+}
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Colors c = Colors.RED;
+        System.out.println(c);
+        System.out.println(Colors.BLUE);
+        System.out.println(Colors.WHITE.ordinal());
+        for(Colors i:Colors.values()) // Colors is the enum name Colors.values() will store the constants in enum of type colors.
+        {
+            System.out.println(i +"   "+ " index: "+ (i.ordinal()));
+        }
+        System.out.println(Colors.values()[2]);
+    }
+}
+
+int[] a = new int[5];
+int a[] = new int[5];  all same 
+
+creating an integer type array 
+Integer[] a = new Integer[5];
+
+//Difference 
+Integer all elements are null, int all elements are zero
+
+int a[] = new int[5];
+Arrays.fill(a,7); fills all the elements
+System.out.println(Arrays.toString(a)); prints all the elements in 
+Arrays.sort(a);
+Arrays.toString
+Arrays.sort(a,Collection.reverseOrder());// applicable to integer class or wrapper class only. and for String
+
+

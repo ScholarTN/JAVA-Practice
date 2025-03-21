@@ -1,0 +1,12 @@
+
+class EncoderDecoder{
+    String encode(String msg[])
+    {
+        return String.join("#",msg);
+    }
+    String[] decode(String msg)
+    {
+        return msg.split("#");
+    }
+}
+

@@ -1,0 +1,19 @@
+class StringOps{
+ String manipulate(String words[])
+ {
+     if(words.length==1)
+     {
+         StringBuffer sb = new StringBuffer(words);
+         return sb.reverse().toString();
+         
+     }
+     else if(words.length==2)
+     {
+         return words[0]+words[1];
+     }
+     else 
+     {
+         return "Invalid input";
+     }
+ }
+}
