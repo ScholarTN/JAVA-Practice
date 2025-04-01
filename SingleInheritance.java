@@ -21,5 +21,6 @@ public class  SingleInheritance
         B obj = new B();
         obj.xyz();
         obj.abc();
+    
     }
 }

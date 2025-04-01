@@ -2,6 +2,19 @@
 //Method overriding 
 
 //NB:The overridden method can be called by assigning subclass object to super class Reference
+
+
+
+public class NestedClass
+{
+    public static void main(String arg[])
+    {
+        Outer obj1 = new Outer();
+        Outer.Inner obj2 = obj1.new Inner(); //Creating Inner object
+        obj2.add();
+    }
+}
+
 class Outer
 {
    int x=5;
@@ -13,15 +26,4 @@ class Outer
            System.out.println(x+y);
        }
    }
-}
-
-
-public class NestedClass
-{
-    public static void main(String arg[])
-    {
-        Outer obj1 = new Outer();
-        Outer.Inner obj2 = obj1.new Inner(); //Creating Inner object
-        obj2.add();
-    }
 }
