@@ -14,7 +14,9 @@ public class Copyfromfile1tofile2
     {
        file2.write((char)ch); //type casting to char to access the characters, ch only shows the asci values
     }
+    file1.flush();
     file1.close();
+
     file2.close();
     }
 

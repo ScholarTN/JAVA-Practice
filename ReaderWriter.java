@@ -32,7 +32,7 @@ Class Read1by1
     int ch;
     while((ch = file1.read()!=-1))
     {
-        System.out.print((char)ch);
+        System.out.print((char)ch); //casting int to char
     }
     file1.close();
     }
