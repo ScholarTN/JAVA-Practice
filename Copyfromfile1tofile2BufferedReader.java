@@ -20,4 +20,6 @@ public class Copyfromfile1tofile2BufferedReader
         file1.close();
         file2.close();
     }
+
 }
+
