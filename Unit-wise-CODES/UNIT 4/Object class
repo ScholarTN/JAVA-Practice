@@ -1,0 +1,35 @@
+// Object class
+/*
+1. equals();
+2. getClass();
+3. toString();
+4. hashCode();
+5. clone(); //typecasting is must
+6. finalyze();
+*/
+
+class A
+{
+    
+}
+
+public class Main
+{
+    public static void main(String arg[])
+    {
+        Main obj1 = new Main();
+        Main obj2 = new Main();
+        Main obj3 = obj1;
+        A obj4 = new A();
+        System.out.println(obj1.equals(obj3));
+        System.out.println(obj4.getClass());
+        
+        System.out.println(obj1.toString());
+        System.out.println(obj1.hashCode());
+        System.out.println(obj2.hashCode());
+        try{
+        Main obj5 = (Main)obj1.clone();}
+        catch(Exception e){}
+        System.out.println("hi");
+    }
+}

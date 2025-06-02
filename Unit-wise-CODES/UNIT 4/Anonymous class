@@ -1,0 +1,36 @@
+/*
+    Anonymous class
+*/
+/*interface A{
+    int x = 5;
+    void display();
+}
+public class Main{
+    public static void main(String arg[])
+    {
+        //Anonymous class
+       A obj = new A(){
+           public void display(){
+               System.out.println(x);
+           }
+       };
+       obj.display();
+    }
+}*/
+
+abstract class A{
+    int x = 5;
+    abstract void display();
+}
+public class Main{
+    public static void main(String arg[])
+    {
+        //Anonymous class
+       A obj = new A(){
+           void display(){
+               System.out.println(x);
+           }
+       };
+       obj.display();
+    }
+}

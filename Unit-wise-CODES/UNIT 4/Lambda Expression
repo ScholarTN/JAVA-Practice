@@ -1,0 +1,17 @@
+/*
+Lambda Expression
+*/
+
+interface A
+{
+    int add(int x);
+}
+public class Main
+{
+    public static void main(String arg[])
+    {
+        A obj = (int x)->{return (x+x);};
+        int num = obj.add(5);
+        System.out.println(num);
+    }
+}

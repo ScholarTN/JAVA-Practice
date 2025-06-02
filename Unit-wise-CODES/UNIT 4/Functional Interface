@@ -1,0 +1,22 @@
+/*
+Functional Interface 
+it must contain only one method without a body or simply abstract method 
+*/
+
+interface A
+{
+    int add(int x);
+}
+public class Main implements A
+{
+    public int add(int x)
+    {
+        return x+x;
+    }
+    public static void main(String arg[])
+    {
+        A obj = new Main();
+        int num = obj.add(3);
+        System.out.println(num);
+    }
+}
