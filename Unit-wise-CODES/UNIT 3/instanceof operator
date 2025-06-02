@@ -1,0 +1,17 @@
+/*
+instanceof operator
+
+
+*/
+
+class A{
+    
+}
+class Main{
+    public static void main(String[] arg)
+    {
+        Main obj1 = new Main();
+        
+        System.out.println(obj1 instanceof Main);
+    }
+}
